@@ -118,6 +118,16 @@ class NeuralNetwork_agent:
 
   def save(self):
     self.net.save(self.name) 
+
+  @staticmethod 
+  def load(name):
+    import os
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)),name)
+    net = NeuralNetwork_agent(name)
+    net.net = tf.keras.models.load_model(path) 
+    return net 
+    
+    
       
 
 ################################################################################
@@ -151,6 +161,7 @@ if __name__ == '__main__':
     tactics=tactics_agent, 
     human="human", 
     train=nn, 
+    nnet=NeuralNetwork_agent.load('reversiNN'), 
   )
 
   parser = argparse.ArgumentParser()
@@ -164,6 +175,7 @@ if __name__ == '__main__':
  
   from functools import partial 
   MyGame = partial(GameAi, white_agent=agents[cfg.white], black_agent=agents[cfg.black]) 
+
 
   if cfg.quiet:
     tot_b = 0
