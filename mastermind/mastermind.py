@@ -1,3 +1,5 @@
+import numpy as np 
+
 class MasterMind:
   def __init__ (self, combination):
     self.combination = combination  
@@ -6,13 +8,14 @@ class MasterMind:
 
   def guess (self, test):
     if self.validate(test) == False: return None, None 
-    wrong_only = self.remove_correct (test, self.combination)
-    print (wrong_only)
-    return len(test)-len(wrong_only), len([c for c in test if c in wrong_only])
+    mp1, mp2 = self.remove_correct (test, self.combination)
+    return len(test)-len(mp1), len([c for c in mp1 if c in mp2])
 
   @staticmethod
   def remove_correct (test, right):
-    return ''.join([y for x,y in zip(test,right) if x != y])
+    mp1 = ''.join([x for x,y in zip(test,right) if x != y])
+    mp2 = ''.join([y for x,y in zip(test,right) if x != y])
+    return mp1, mp2
     
 
   @staticmethod
@@ -28,7 +31,7 @@ class MasterMind:
 
 
 if __name__ == '__main__':
-  mmind = MasterMind("1234")
+  mmind = MasterMind("%d%d%d%d"%tuple(np.random.randint(1,7,4)))
   for iAttempt in range(8):
     n_ok, n_misplaced = None, None
     while n_ok == None: 
@@ -39,5 +42,6 @@ if __name__ == '__main__':
       break 
     else:
       print ("nCorrect: %d   nMisplaced: %d" % (n_ok, n_misplaced))
+      exit()
 
-  print ("You lose... :(")
+  print ("You lose... :( Solution:", mmind.combination)
