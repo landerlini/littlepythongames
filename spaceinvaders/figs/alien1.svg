@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="30pt"
+   height="30pt"
+   viewBox="0 0 10.583334 10.583333"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="alien1.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.146875"
+     inkscape:cx="20"
+     inkscape:cy="11.428571"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="pt"
+     inkscape:window-width="1440"
+     inkscape:window-height="775"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-286.41668)">
+    <ellipse
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ececec;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1366"
+       cx="5.2082696"
+       cy="290.67261"
+       rx="1.9800035"
+       ry="1.1191324" />
+    <ellipse
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ececec;stroke-width:0.99443179;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1368"
+       cx="5.358922"
+       cy="292.91089"
+       rx="4.8021402"
+       ry="1.7245262" />
+    <ellipse
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ececec;stroke-width:0.80400562;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse1374"
+       cx="7.2743597"
+       cy="-292.3298"
+       rx="0.31321496"
+       ry="0.076475412"
+       transform="scale(1,-1)" />
+    <ellipse
+       transform="scale(1,-1)"
+       ry="0.076475412"
+       rx="0.31321496"
+       cy="-292.20065"
+       cx="5.1221824"
+       id="ellipse1378"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ececec;stroke-width:0.80400562;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <ellipse
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ececec;stroke-width:0.80400562;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse1380"
+       cx="-16.682976"
+       cy="-292.03799"
+       rx="0.31321496"
+       ry="0.076475412"
+       transform="matrix(0.99781041,-0.06613914,-0.06613914,-0.99781041,0,0)" />
+    <ellipse
+       transform="matrix(0.99499908,0.0998841,0.0998841,-0.99499908,0,0)"
+       ry="0.076475412"
+       rx="0.31321496"
+       cy="-291.72726"
+       cx="33.135498"
+       id="ellipse1382"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ececec;stroke-width:0.80400562;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <ellipse
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ececec;stroke-width:0.80400562;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse1384"
+       cx="6.2413144"
+       cy="-293.62112"
+       rx="0.31321496"
+       ry="0.076475412"
+       transform="scale(1,-1)" />
+    <ellipse
+       transform="matrix(0.95946773,-0.28181851,-0.28181851,-0.95946773,0,0)"
+       ry="0.076475412"
+       rx="0.31321496"
+       cy="-283.79636"
+       cx="-74.609665"
+       id="ellipse1386"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ececec;stroke-width:0.80400562;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+</svg>
